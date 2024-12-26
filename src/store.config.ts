@@ -3,19 +3,18 @@ import ApparelImage from "@/images/apparel.jpg";
 
 export const config = {
 	categories: [
-		{ name: "Apparel", slug: "apparel", image: ApparelImage },
-		{ name: "Accessories", slug: "accessories", image: AccessoriesImage },
+		{ name: "Shop", slug: "shop", image: ApparelImage },
+		{ name: "Über uns", slug: "about", image: AccessoriesImage },
 	],
 
 	social: {
-		x: "https://x.com/yourstore",
-		facebook: "https://facebook.com/yourstore",
+		instagram: "https://www.instagram.com/zeytolivenoel",
 	},
 
 	contact: {
-		email: "support@yourstore.com",
-		phone: "+1 (555) 111-4567",
-		address: "123 Store Street, City, Country",
+		email: "info@zeytoliveoil.de",
+		phone: "+152 367 222 90",
+		address: "Zwieselbachweg 9, 90451 Nürnberg",
 	},
 };
 

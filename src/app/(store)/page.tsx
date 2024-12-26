@@ -1,7 +1,6 @@
 import { publicUrl } from "@/env.mjs";
 import { getTranslations } from "@/i18n/server";
-import StoreConfig from "@/store.config";
-import { CategoryBox } from "@/ui/category-box";
+import heroImage from "@/images/hero.png";
 import { ProductList } from "@/ui/products/product-list";
 import { YnsLink } from "@/ui/yns-link";
 import * as Commerce from "commerce-kit";
@@ -31,13 +30,13 @@ export default async function Home() {
 						</YnsLink>
 					</div>
 					<Image
-						alt="Cup of Coffee"
+						alt="Olive Oil Bottle"
 						loading="eager"
 						priority={true}
 						className="rounded"
 						height={450}
 						width={450}
-						src="https://files.stripe.com/links/MDB8YWNjdF8xT3BaeG5GSmNWbVh6bURsfGZsX3Rlc3RfaDVvWXowdU9ZbWlobUIyaHpNc1hCeDM200NBzvUjqP"
+						src={heroImage}
 						style={{
 							objectFit: "cover",
 						}}
@@ -48,13 +47,13 @@ export default async function Home() {
 
 			<ProductList products={products} />
 
-			<section className="w-full py-8">
+			{/* <section className="w-full py-8">
 				<div className="grid gap-8 lg:grid-cols-2">
 					{StoreConfig.categories.map(({ slug, image: src }) => (
 						<CategoryBox key={slug} categorySlug={slug} src={src} />
 					))}
 				</div>
-			</section>
+			</section> */}
 		</main>
 	);
 }

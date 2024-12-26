@@ -24,8 +24,8 @@ const sections = [
 				href: "https://yournextstore.com/#pricing",
 			},
 			{
-				label: "Contact Us",
-				href: "mailto:hi@yournextstore.com",
+				label: "Kontakt",
+				href: "mailto:info@zeytoliveoil.de",
 			},
 		],
 	},
@@ -63,25 +63,16 @@ export async function Footer() {
 			</div>
 			<div className="container mt-8 flex max-w-7xl flex-col items-center justify-between gap-4 text-sm text-neutral-500 md:flex-row">
 				<div>
-					<p>© 2024 Your Next Store</p>
-					<p>Delightful commerce for everyone</p>
+					<p>© 2024 Zeyt Olive Oil</p>
+					<p>Alle Rechte vorbehalten.</p>
 				</div>
-				<div className="flex items-center gap-4">
-					<YnsLink
-						className="inline-flex items-center gap-1 transition-colors hover:text-neutral-700"
-						href="https://x.com/zaiste"
-					>
-						<TwitterIcon className="h-4 w-4" /> @zaiste
-						<span className="sr-only">Twitter</span>
-					</YnsLink>
-					<YnsLink
-						className="inline-flex items-center gap-1 transition-colors hover:text-neutral-700"
-						href="https://x.com/typeofweb"
-					>
-						<TwitterIcon className="h-4 w-4" /> @typeofweb
-						<span className="sr-only">Twitter</span>
-					</YnsLink>
-				</div>
+				<YnsLink
+					className="inline-flex items-center gap-1 transition-colors hover:text-neutral-700"
+					href="https://x.com/zeyt_olive_oil"
+				>
+					<TwitterIcon className="h-4 w-4" /> @zeytolivenoel
+					<span className="sr-only">Instagram</span>
+				</YnsLink>
 			</div>
 		</footer>
 	);
