@@ -3,7 +3,7 @@ import ApparelImage from "@/images/apparel.jpg";
 
 export const config = {
 	categories: [
-		{ name: "Shop", slug: "shop", image: ApparelImage },
+		{ name: "Shop", slug: "product/350ml", image: ApparelImage },
 		{ name: "Über uns", slug: "about", image: AccessoriesImage },
 	],
 

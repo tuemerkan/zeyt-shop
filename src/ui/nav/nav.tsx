@@ -13,12 +13,10 @@ export const Nav = async () => {
 					</SeoH1>
 				</YnsLink>
 
-				<div className="max-w-full flex flex-shrink w-auto sm:mr-auto overflow-auto max-sm:order-2">
+				<div className="max-w-full ml-5 flex flex-shrink w-auto sm:mr-auto overflow-auto max-sm:order-2">
 					<NavMenu />
 				</div>
-				{/* <div className="mr-3 ml-auto sm:ml-0">
-					<SearchNav />
-				</div> */}
+				<div className="mr-3 ml-auto sm:ml-0">{/* <SearchNav /> */}</div>
 				<CartSummaryNav />
 			</div>
 		</header>
