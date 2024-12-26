@@ -7,8 +7,10 @@ export const Nav = async () => {
 	return (
 		<header className="z-50 py-4 sticky top-0 bg-white/90 backdrop-blur-sm nav-border-reveal">
 			<div className="mx-auto flex max-w-7xl items-center gap-2 px-4 flex-row sm:px-6 lg:px-8">
-				<YnsLink href="/">
-					<SeoH1 className="-mt-0.5 whitespace-nowrap text-xl font-bold">Zeyt</SeoH1>
+				<YnsLink href="/" className="flex items-center">
+					<SeoH1 className="whitespace-nowrap text-xl font-bold">
+						<img src="/logo.svg" alt="Yns Logo" className="h-16" />
+					</SeoH1>
 				</YnsLink>
 
 				<div className="max-w-full flex flex-shrink w-auto sm:mr-auto overflow-auto max-sm:order-2">
